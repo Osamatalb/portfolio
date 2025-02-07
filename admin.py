@@ -1,3 +1,11 @@
 from django.contrib import admin
 
-# Register your models here.
+from .models import *
+admin.site.register(User)
+
+admin.site.register(CriminalLastSpotted)
+admin.site.register(Criminal)
+admin.site.register(File)
+
+
+

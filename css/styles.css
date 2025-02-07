@@ -70,7 +70,7 @@
 .card {
     border: none;
     border-radius: 4px;
-    background-color: #fff;
+    background-color: #0000;
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
 }
@@ -90,7 +90,7 @@
 
 .main-content {
     width: 100%;
-    background: #F3F8FB;
+    background: #0000;
 }
 
 .main-content-inner {
@@ -110,7 +110,7 @@
     height: 100vh;
     width: 280px;
     overflow: hidden;
-    background: #303641;
+    background: #21252afa;
     box-shadow: 2px 0 32px rgba(0, 0, 0, 0.05);
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
@@ -397,8 +397,7 @@
 
 .header-area {
     padding: 15px 30px;
-    background: #fff;
-    border-bottom: 1px solid #d8e3e7;
+    background: #0000;
 }
 
 .nav-btn {
@@ -646,8 +645,9 @@
 
 .page-title-area {
     padding: 0 30px;
-    background: #fff;
+    background: #495057;
     position: relative;
+    box-shadow: 1px 1px 5px #eee inset;
 }
 
 .page-title-area:before {
@@ -714,8 +714,10 @@ ul.breadcrumbs {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     background: -webkit-linear-gradient(left, #8914fe 0%, #8063f5 100%);
-    background: linear-gradient(to right, #8914fe 0%, #8063f5 100%);
-    padding: 17px 38px;
+    background: linear-gradient(to right, #4336fb 0%, #b046c9 100%);
+    box-shadow: 1px 1px 24px #000 inset;
+    border-radius: 35px;
+    padding: 15px 30px;
     position: relative;
 }
 
@@ -1180,11 +1182,11 @@ table.dbkit-table tr td {
 .footer-area {
     text-align: center;
     padding: 23px 0 19px;
-    background: #fff;
+    background: #343a40;
 }
 
 .footer-area p {
-    color: #676666;
+    color: #fff;
     margin-bottom: 0;
 }
 
@@ -1812,6 +1814,8 @@ table.dbkit-table tr td {
 }
 
 .card-bordered {
+    border-radius: 5px;
+    box-shadow: 3px 3px 8px;
     border: 1px solid rgba(0, 0, 0, .125);
 }
 
@@ -2358,6 +2362,8 @@ table.dataTable thead td {
 
 .form-gp i {
     position: absolute;
+    right: 5px;
+    bottom: 15px;
     color: #7e74ff;
     font-size: 16px;
 }

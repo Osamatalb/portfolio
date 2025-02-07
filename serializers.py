@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import File,User,Person
+from .models import File
 
 
 class FileSerializer(serializers.ModelSerializer):
@@ -7,17 +7,5 @@ class FileSerializer(serializers.ModelSerializer):
     model = File
     fields = ('file', 'remark', 'timestamp')
 
-
-
-
-class userSerializer(serializers.ModelSerializer):
-    class Metaa():
-
-        model = User
-        fields =('first_name' , 'last_name' , 'email' , 'password')
-
-
-
-
-   
-
+    # model = Person
+    # fields = ('name', 'user_id', 'address', 'picture')

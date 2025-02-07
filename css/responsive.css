@@ -192,9 +192,9 @@
         position: fixed;
         z-index: 99;
         left: 306px;
-        background: #303641;
+        background: #6a56a5;
         padding: 14px;
-        top: 0;
+        top: 0;   
         margin: 0;
     }
     .sbar_collapsed .nav-btn span {
